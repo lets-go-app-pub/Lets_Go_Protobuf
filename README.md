@@ -50,10 +50,14 @@ Canonical `.proto` files for the Lets Go platform. These schemas define the wire
 
 ## Related repositories
 
-- **Server (C++)** — uses both shared and server-specific protos: https://github.com/lets-go-app-pub/Lets_Go_Server  
-- **Android Client (Kotlin)** — consumes shared protos: https://github.com/lets-go-app-pub/Lets_Go_Android_Client  
-- **Desktop Admin (Qt)** — consumes server-specific protos: https://github.com/lets-go-app-pub/Lets_Go_Desktop_Interface  
-- **Algorithm & Conversion** — aggregation → C++ toolchain: https://github.com/lets-go-app-pub/Lets_Go_Algorithm_And_Conversion
+- **Server (C++)** — stateless hub, gRPC/Protobuf, MongoDB  
+  👉 [`Lets_Go_Server`](https://github.com/lets-go-app-pub/Lets_Go_Server)
+
+- **Android Client (Kotlin)** — auth, profiles, activities, chat *(SDK versions may be dated)*  
+  👉 [`Lets_Go_Android_Client`](https://github.com/lets-go-app-pub/Lets_Go_Android_Client)
+
+- **Desktop Admin (Qt)** — admin/ops console for moderation, events, stats, and controls  
+  👉 [`Lets_Go_Interface`](https://github.com/lets-go-app-pub/Lets_Go_Interface)
 
 ---
 
