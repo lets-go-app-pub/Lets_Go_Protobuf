@@ -63,4 +63,5 @@ Canonical `.proto` files for the Lets Go platform. These schemas define the wire
 
 ## License
 
-See `LICENSE` in this repo. Note that **generated code** inherits licensing from these `.proto` sources and your generator/runtime libraries.
+MIT  
+Note that **generated code** inherits licensing from these `.proto` sources and your generator/runtime libraries.
